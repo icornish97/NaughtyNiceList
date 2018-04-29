@@ -305,7 +305,7 @@ public class database
 		    	  
 		         Statement stat = conn.createStatement();
 		         
-		         stat.execute("DELETE FROM Activity WHERE childID ='" +dropActivityID+"'" );
+		         stat.execute("DELETE FROM Activity WHERE activityID ='" +dropActivityID+"'" );
 		      }}
 			
 	
